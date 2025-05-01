@@ -27,7 +27,7 @@ proxies:
     servername: sg-do5.jstun.cloud
     network: ws
     ws-opts: 
-      path: vmess
+      path: /vmess
       headers: 
         Host: sg-do5.jstun.cloud
     udp: true
