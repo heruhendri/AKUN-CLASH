@@ -11,7 +11,7 @@ proxies:
     servername: id-rajasa.jabarstore.xyz
     network: ws
     ws-opts:
-      path: vmess
+      path: /vmess
       headers:
         Host: id-rajasa.jabarstore.xyz
     udp: true
