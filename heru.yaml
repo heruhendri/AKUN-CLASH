@@ -1,9 +1,9 @@
 proxies:
-  - name: trial rajasa iflix git
-    server: id-rajasa.jabarstore.xyz
+  - name: trial ctn
+    server: id-ctn.jabarstore.xyz
     port: 443
     type: vmess
-    uuid: 735888cf-3552-4b9b-a08d-80e1b509b378
+    uuid: e7cadd1a-55c0-4669-841e-281dfde72c81
     alterId: 0
     cipher: auto
     tls: true
@@ -13,7 +13,7 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: id-rajasa.jabarstore.xyz
+        Host: id-ctn.jabarstore.xyz
     udp: true
   - name: trial msa iflix git
     server: id-msa.jabarstore.xyz
