@@ -31,11 +31,11 @@ proxies:
       headers:
         Host: id-nusa.jabarstore.xyz
     udp: true
-  - name: trial linkgo
-    server: linkgo.jabarstore.xyz
+  - name: trial jupiter
+    server: id-juviter.jstn.fun
     port: 443
     type: vmess
-    uuid: 49d9f0c1-43ad-4873-8028-094d2a97c353
+    uuid: 84589721-7864-4845-936b-bdd11a7215f5
     alterId: 0
     cipher: auto
     tls: true
@@ -45,7 +45,7 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: linkgo.jabarstore.xyz
+        Host: id-juviter.jstn.fun
     udp: true
   - name: rembulan xut git
     server: ava.game.naver.com
