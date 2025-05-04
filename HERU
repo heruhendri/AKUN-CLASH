@@ -1,5 +1,5 @@
 proxies:
-  - name: rembulan xut
+  - name: rembulan xut git
     server: ava.game.naver.com
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.do5.jstun.cloud
     udp: true
-  - name: rembulanku xut
+  - name: rembulanku xut git
     server: ava.game.naver.com
     port: 443
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.do1.jstn.fun
     udp: true
-  - name: rembulan iflix
+  - name: rembulan iflix git
     server: sg-do5.jstun.cloud
     port: 443
     type: vmess
@@ -47,7 +47,7 @@ proxies:
       headers: 
         Host: sg-do5.jstun.cloud
     udp: true
-  - name: rembulanku iflix
+  - name: rembulanku iflix git
     server: sg-do1.jstun.cloud
     port: 443
     type: vmess
@@ -63,7 +63,7 @@ proxies:
       headers:
         Host: sg-do1.jstun.cloud
     udp: true
-  - name: rembulan vidio
+  - name: rembulan vidio git
     server: 104.22.5.240
     port: 443
     type: vmess
@@ -79,7 +79,7 @@ proxies:
       headers: 
         Host: sg-do5.jstun.cloud
     udp: true
-  - name: rembulanku vidio
+  - name: rembulanku vidio git
     server: 104.22.5.240
     port: 443
     type: vmess
@@ -95,7 +95,7 @@ proxies:
       headers:
         Host: sg-do1.jstun.cloud
     udp: true
-  - name: servermojo xut
+  - name: servermojo xut git
     server: ava.game.naver.com
     port: 443
     type: vmess
@@ -111,7 +111,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.do2.storevpn.cc
     udp: true
-  - name: servermojo vidio
+  - name: servermojo vidio git
     server: 104.22.5.240
     port: 443
     type: vmess
@@ -127,7 +127,7 @@ proxies:
       headers: 
         Host: do2.storevpn.cc
     udp: true
-  - name: servermojo iflix
+  - name: servermojo iflix git
     server: do2.storevpn.cc
     port: 443
     type: vmess
