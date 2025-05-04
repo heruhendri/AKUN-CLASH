@@ -1,5 +1,21 @@
 proxies:
-  - name: trial xut git
+  - name: trial msa iflix git
+    server: id-msa.jabarstore.xyz
+    port: 443
+    type: vmess
+    uuid: e9b18ee0-f604-42e2-97e6-fded52409880
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hwvip.iflix.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-msa.jabarstore.xyz
+    udp: true
+  - name: trial iflix git
     server: id-biznet.jabarstore.xyz
     port: 443
     type: vmess
