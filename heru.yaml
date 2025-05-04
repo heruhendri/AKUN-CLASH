@@ -1,4 +1,20 @@
 proxies:
+  - name: trial xut git
+    server: id-biznet.jabarstore.xyz
+    port: 443
+    type: vmess
+    uuid: 155972f7-4596-426b-837d-c2e866bb4323
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hwvip.iflix.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-biznet.jabarstore.xyz
+    udp: true
   - name: rembulan xut git
     server: ava.game.naver.com
     port: 443
