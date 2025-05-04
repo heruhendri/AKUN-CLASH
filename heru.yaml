@@ -31,11 +31,11 @@ proxies:
       headers:
         Host: id-msa.jabarstore.xyz
     udp: true
-  - name: trial iflix git
-    server: id-biznet.jabarstore.xyz
+  - name: trial linkgo
+    server: linkgo.jabarstore.xyz
     port: 443
     type: vmess
-    uuid: 94f931d3-24cb-47c2-a2fb-9656128a7a7e
+    uuid: 49d9f0c1-43ad-4873-8028-094d2a97c353
     alterId: 0
     cipher: auto
     tls: true
@@ -45,7 +45,7 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: id-biznet.jabarstore.xyz
+        Host: linkgo.jabarstore.xyz
     udp: true
   - name: rembulan xut git
     server: ava.game.naver.com
