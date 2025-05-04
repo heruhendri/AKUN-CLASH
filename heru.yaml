@@ -35,7 +35,7 @@ proxies:
     server: id-biznet.jabarstore.xyz
     port: 443
     type: vmess
-    uuid: 155972f7-4596-426b-837d-c2e866bb4323
+    uuid: 94f931d3-24cb-47c2-a2fb-9656128a7a7e
     alterId: 0
     cipher: auto
     tls: true
