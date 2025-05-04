@@ -15,11 +15,11 @@ proxies:
       headers:
         Host: id-ctn.jabarstore.xyz
     udp: true
-  - name: trial msa iflix git
-    server: id-msa.jabarstore.xyz
+  - name: trial nusa
+    server: id-nusa.jabarstore.xyz
     port: 443
     type: vmess
-    uuid: e9b18ee0-f604-42e2-97e6-fded52409880
+    uuid: d9840950-11fa-4628-af40-cf132d64f06f
     alterId: 0
     cipher: auto
     tls: true
@@ -29,7 +29,7 @@ proxies:
     ws-opts:
       path: /vmess
       headers:
-        Host: id-msa.jabarstore.xyz
+        Host: id-nusa.jabarstore.xyz
     udp: true
   - name: trial linkgo
     server: linkgo.jabarstore.xyz
