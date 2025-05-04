@@ -1,0 +1,33 @@
+proxies:
+  - name: riksaaaaaaaaaa vidio 🇮🇩 git
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: ae622118-d48b-431b-9931-ff8f8191aee8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-rajasa.jabarstore.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-rajasa.jabarstore.xyz
+    udp: true
+  - name: bonus riksaaa vidio 🇸🇬 git
+    server: quiz.int.vidio.com
+    port: 443
+    type: vmess
+    uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-do5.jstun.cloud
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: sg-do5.jstun.cloud
+    udp: true
