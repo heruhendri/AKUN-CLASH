@@ -1,20 +1,4 @@
 proxies:
-  - name: rembulan xut git
-    server: ava.game.naver.com
-    port: 443
-    type: vmess
-    uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.do5.jstun.cloud
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: ava.game.naver.com.do5.jstun.cloud
-    udp: true
   - name: rembulanku xut git
     server: ava.game.naver.com
     port: 443
@@ -31,22 +15,6 @@ proxies:
       headers:
         Host: ava.game.naver.com.do1.jstn.fun
     udp: true
-  - name: rembulan iflix git
-    server: sg-do5.jstun.cloud
-    port: 443
-    type: vmess
-    uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: hwvip.iflix.com
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg-do5.jstun.cloud
-    udp: true
   - name: rembulanku iflix git
     server: sg-do1.jstun.cloud
     port: 443
@@ -62,22 +30,6 @@ proxies:
       path: /vmess
       headers:
         Host: sg-do1.jstun.cloud
-    udp: true
-  - name: rembulan vidio git
-    server: 104.22.5.240
-    port: 443
-    type: vmess
-    uuid: 7ead7d43-2069-4b92-bc02-b47f1db9756e
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-do5.jstun.cloud
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg-do5.jstun.cloud
     udp: true
   - name: rembulanku vidio git
     server: 104.22.5.240
