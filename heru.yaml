@@ -1,4 +1,20 @@
 proxies:
+  - name: trial id
+    server: id-juviter.jstn.fun
+    port: 443
+    type: vmess
+    uuid: 93959369-db93-4147-9943-35ee603cfa95
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hwvip.iflix.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-juviter.jstn.fun
+    udp: true
   - name: rembulanku xut git
     server: ava.game.naver.com
     port: 443
