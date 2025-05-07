@@ -1,19 +1,4 @@
 proxies:
-  - name: trial id
-    server: id-juviter.jstn.fun
-    port: 443
-    type: vmess
-    uuid: 93959369-db93-4147-9943-35ee603cfa95
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: hwvip.iflix.com
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-juviter.jstn.fun
     udp: true
   - name: rembulanku xut git
     server: ava.game.naver.com
@@ -47,22 +32,6 @@ proxies:
       headers:
         Host: sg-do1.jstun.cloud
     udp: true
-  - name: rembulanku vidio git
-    server: 104.22.5.240
-    port: 443
-    type: vmess
-    uuid: b2f7ddd6-c9de-4d52-811c-e99eff8d79eb
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-do1.jstun.cloud
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg-do1.jstun.cloud
-    udp: true
   - name: servermojo xut git
     server: ava.game.naver.com
     port: 443
@@ -78,22 +47,6 @@ proxies:
       path: /vmess
       headers:
         Host: ava.game.naver.com.do2.storevpn.cc
-    udp: true
-  - name: servermojo vidio git
-    server: 104.22.5.240
-    port: 443
-    type: vmess
-    uuid: 69dd5785-00fb-4adc-abd2-caa7112066e0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: do2.storevpn.cc
-    network: ws
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: do2.storevpn.cc
     udp: true
   - name: servermojo iflix git
     server: do2.storevpn.cc
