@@ -1,5 +1,4 @@
 proxies:
-    udp: true
   - name: rembulanku xut git
     server: ava.game.naver.com
     port: 443
