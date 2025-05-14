@@ -1,4 +1,36 @@
 proxies:
+  - name: XUTS DO 🇸🇬 git
+    server: 104.18.214.235
+    port: 443
+    type: vmess
+    uuid: 88131892-394f-402c-8739-65446010b6a4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.do1.jstn.fun
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: ava.game.naver.com.do1.jstn.fun
+    udp: true
+  - name: ID XUTS RAJASA 🇮🇩 git
+    server: 104.18.214.235
+    port: 443
+    type: vmess
+    uuid: ae622118-d48b-431b-9931-ff8f8191aee8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.rajasa.jabarstore.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: ava.game.naver.com.rajasa.jabarstore.xyz
+    udp: true
   - name: ID XUTS 🇮🇩 git
     server: 104.18.214.235
     port: 443
@@ -45,7 +77,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.free.vpn-wuss.BIZ.id
     udp: true
-  - name: Rentoll Rendy kuntol vidio 🇮🇩 git
+  - name: ID VIDIO RENNN 🇮🇩 git
     server: quiz.int.vidio.com
     port: 443
     type: vmess
