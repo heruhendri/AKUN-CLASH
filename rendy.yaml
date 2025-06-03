@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.do1.jstn.fun
     udp: true
-  - name: ID1-XUTS 🇮🇩
+  - name: ID1-XUTS 🇮🇩 git
     server: 104.18.214.235
     port: 443
     type: vless
@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.aio.skibidicx.web.id
     udp: true
-  - name: ID2-XUTS 🇮🇩
+  - name: ID2-XUTS 🇮🇩 git
     server: 104.18.214.235
     port: 443
     type: vless
