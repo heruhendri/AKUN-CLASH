@@ -1,21 +1,21 @@
 proxies:
-  - name: SG XUTS DO 🇸🇬 git
+  - name: SG VIDIO RENDYY 🇸🇬 git
     server: quiz.int.vidio.com
     port: 443
     type: vmess
-    uuid: 88131892-394f-402c-8739-65446010b6a4
+    uuid: 3b186abb-1cb7-4fee-908d-9fb92e71588c
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: thumbor.prod.vidiocdn.com.do1.jstn.fun
+    servername: wilcard.do1.jstn.fun
     network: ws
     ws-opts:
-      path: /ava.game.naver.com
+      path: /vmess
       headers:
-        Host: do1.jstn.fun
+        Host: wilcard.do1.jstn.fun
     udp: true
-  - name: ID1-XUTS 🇮🇩 git
+  - name: ID1-VIDIO 🇮🇩 git
     server: quiz.int.vidio.com
     port: 443
     type: vless
@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: aio.skibidicx.web.id
     udp: true
-  - name: ID2-XUTS 🇮🇩 git
+  - name: ID2-VIDIO 🇮🇩 git
     server: quiz.int.vidio.com
     port: 443
     type: vless
