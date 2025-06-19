@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: wilcard.do1.jstn.fun
+    servername: do1.jstn.fun
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: wilcard.do1.jstn.fun
+        Host: do1.jstn.fun
     udp: true
   - name: ID1-VIDIO 🇮🇩 git
     server: quiz.int.vidio.com
