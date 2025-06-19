@@ -8,12 +8,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: do1.jstn.fun
+    servername: quiz.int.vidio.com.do1.jstn.fun
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: do1.jstn.fun
+        Host: quiz.int.vidio.com.do1.jstn.fun
     udp: true
   - name: ID1-VIDIO 🇮🇩 git
     server: quiz.int.vidio.com
