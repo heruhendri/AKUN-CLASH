@@ -1,6 +1,6 @@
 proxies:
   - name: SG XUTS DO 🇸🇬 git
-    server: thumbor.prod.vidiocdn.com
+    server: quiz.int.vidio.com
     port: 443
     type: vmess
     uuid: 88131892-394f-402c-8739-65446010b6a4
@@ -13,35 +13,35 @@ proxies:
     ws-opts:
       path: /ava.game.naver.com
       headers:
-        Host: thumbor.prod.vidiocdn.com.do1.jstn.fun
+        Host: do1.jstn.fun
     udp: true
   - name: ID1-XUTS 🇮🇩 git
-    server: thumbor.prod.vidiocdn.com
+    server: quiz.int.vidio.com
     port: 443
     type: vless
     uuid: fccdaaae-af39-41a7-9fde-fd32a48278cf
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: thumbor.prod.vidiocdn.com.aio.skibidicx.web.id
+    servername: aio.skibidicx.web.id
     network: ws
     ws-opts:
       path: /ID1
       headers:
-        Host: thumbor.prod.vidiocdn.com.aio.skibidicx.web.id
+        Host: aio.skibidicx.web.id
     udp: true
   - name: ID2-XUTS 🇮🇩 git
-    server: thumbor.prod.vidiocdn.com
+    server: quiz.int.vidio.com
     port: 443
     type: vless
     uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: thumbor.prod.vidiocdn.com.free.vpn-wuss.BIZ.id
+    servername: free.vpn-wuss.BIZ.id
     network: ws
     ws-opts:
       path: /Free/TG-at-BitzBlack/43.218.77.16-1443
       headers:
-        Host: thumbor.prod.vidiocdn.com.free.vpn-wuss.BIZ.id
+        Host: free.vpn-wuss.BIZ.id
     udp: true
